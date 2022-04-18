@@ -1,4 +1,5 @@
-body { background: #222 url('../img/dark.png'); color: #fff; }
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&display=swap');
+body { background: #222 url('../img/dark.png'); color: #fff; font-family: 'Akshar', sans-serif;}
 .navbar { min-height: 40px; }
 .navbar-brand { color: #FFF !important; padding: 10px; font-size: 20px; }
 .dropdown .dropdown-toggle { padding-bottom: 10px; padding-top: 10px; }
@@ -13,6 +14,8 @@ body { background: #222 url('../img/dark.png'); color: #fff; }
 .table-striped tbody > tr.odd > td, .table-striped tbody > tr.odd > th { background-color: #000; }
 .table td { text-align: center; border-color: #2F2F2F; }
 .progress { margin-bottom: 0; background: #222; }
+.progress-bar-success { background-image: linear-gradient(to bottom,#9DDC3E 0,#4CB432 100%);}
+.progress-bar-danger { background-image: linear-gradient(to bottom,#DC5639 0,#A90533 100%);}
 .table-hover > tbody > tr:hover > td { background: #414141; }
 tr.even.expandRow > :hover { background: #2F2F2F !important; }
 tr.odd.expandRow > :hover { background: #000 !important; }
