@@ -3,7 +3,7 @@
 ServerStatus is a full rewrite of [mojeda's](https://github.com/mojeda) [ServerStatus](https://github.com/mojeda/ServerStatus) script, which in turn is a modified version of [BlueVM's](http://www.lowendtalk.com/discussion/comment/169690#Comment_169690) script.
 
 ### Live demo:
-* https://status.botox.bz/
+* https://nodestats.tech
 
 There are many things which I dislike about the original script, for example:
 * requires webserver and PHP for every client
@@ -31,12 +31,12 @@ Name "sergate" given by Dasiel :)
 Switch to a non-privileged user or create one.
 Port 35601 needs to be free and forwarded/open for running the server.
 ```
-git clone https://github.com/BotoX/ServerStatus.git
+git clone https://github.com/exoboosters/ServerStatus.git
 cd ServerStatus/server
 make
 ./sergate
 ```
-If everything goes well you can move on to the next step!
+You should see a message saying that the app is listening on port 35061 If everything goes well you can move on to the next step! 
 
 ### Configuration
 Simply edit the config.json file, it's self explanatory.
